@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ISIC LEY </title>
+        <link rel="stylesheet" type="text/css" >
+      
+        <script type = "text/javascript">
+            var limite = prompt("escribe la cantidad de 1 que deseas");
+            var matriz = new Array();
+
+            
+            for(i=0;i<limite; i++){
+                for(j=0;j<limite;j++){
+                    if(i==j){
+                        
+                        matriz[i]=1;
+                        
+
+                    }else{
+                        matriz[i]= 0;
+                    }
+                    document.write(matriz[i]+" ");
+                }
+                document.write("<br>");
+            }
+           
+        </script>
+       
+        
+    </body>
+</html>

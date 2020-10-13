@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>ISIC LEY </title>
+        <link rel="stylesheet" type="text/css" >
+      
+        <script type = "text/javascript">
+            var columna = prompt("cuantas columnas va a tener la matriz");
+            var fila = prompt("cuantas filas tendra la matriz");
+            var cuadros = columna * fila;
+            console.log(cuadros);
+
+            var matriz = new Array();
+            
+            function getdata(){
+                
+                var name = document.getElementById("dato").value;
+                matriz.push(name);
+               // console.log(name);
+               console.log(matriz);
+
+            }
+
+            function datos(){
+            
+            }
+        </script>
+       
+       <form action="" id="">
+           
+           <input type="number" name="datos" id="dato" placeholder="Datos">
+           <button type="button" onclick="getdata()">enviar</button>
+       </form>
+        
+    </body>
+</html>
